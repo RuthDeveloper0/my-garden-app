@@ -19,6 +19,10 @@ function Flower(){
     margin: 0
   };
 
+  const handleClick = () => {
+    alert(`לחצת על ${name}!`);
+  };
+
   return (
     <div style={cardStyle}>
       <h3 style={titleStyle}>{name}</h3>
