@@ -1,7 +1,4 @@
-function Flower() {
-  const name = "חמנית";
-  const centerColor = "#8b4513";
-  const petalColor = "#ffe066";
+function Flower({ name, centerColor, petalColor }) {
 
   const cardStyle = {
     backgroundColor: petalColor,
