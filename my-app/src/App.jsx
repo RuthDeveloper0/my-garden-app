@@ -7,8 +7,21 @@ function App() {
     <div>
       <Header />
       <main style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
-        <Flower />
-        
+        <Flower
+          name="חמנית"
+          centerColor="#8b4513"
+          petalColor="#ffe066"
+        />
+        <Flower 
+          name="כלנית" 
+          centerColor="#2b2b2b" 
+          petalColor="#ff4d4d" 
+        />
+        <Flower 
+          name="חרצית" 
+          centerColor="#d4a373" 
+          petalColor="#ffffff" 
+        />
       </main>
     </div>
   );
