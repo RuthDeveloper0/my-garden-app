@@ -1,5 +1,4 @@
-function Flower(){
-
+function Flower() {
   const name = "חמנית";
   const centerColor = "#8b4513";
   const petalColor = "#ffe066";
@@ -11,7 +10,8 @@ function Flower(){
     borderRadius: '12px',
     textAlign: 'center',
     width: '180px',
-    margin: '15px'
+    margin: '15px',
+    cursor: 'pointer'
   };
 
   const titleStyle = {
@@ -24,11 +24,10 @@ function Flower(){
   };
 
   return (
-    <div style={cardStyle}>
+    <div style={cardStyle} onClick={handleClick}>
       <h3 style={titleStyle}>{name}</h3>
     </div>
   );
 }
 
 export default Flower;
-
