@@ -7,7 +7,10 @@ function App() {
   const flowers = [
     { id: 1, name: "חמנית", centerColor: "#8b4513", petalColor: "#ffe066" },
     { id: 2, name: "כלנית", centerColor: "#2b2b2b", petalColor: "#ff4d4d" },
-    { id: 3, name: "חרצית", centerColor: "#d4a373", petalColor: "#ffffff" }
+    { id: 3, name: "חרצית", centerColor: "#d4a373", petalColor: "#ffffff" },
+    { id: 4, name: "ורד", petalColor: "#e63946" },              
+    { id: 5, name: "סחלב", centerColor: "#4a154b" },           
+    { id: 6, name: "יסמין" }
   ];
 
 
