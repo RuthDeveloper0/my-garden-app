@@ -1,12 +1,8 @@
-function Flower({ 
-  name = "פרח כללי", 
-  centerColor = "#2e7d32", 
-  petalColor = "#a5d6a7" 
-}) {
+function Flower(){
 
-  const handleClick = () => {
-    alert(`אני פרח מסוג ${name}`);
-  };
+  const name = "חמנית";
+  const centerColor = "#8b4513";
+  const petalColor = "#ffe066";
 
   const cardStyle = {
     backgroundColor: petalColor,
@@ -14,23 +10,21 @@ function Flower({
     padding: '20px',
     borderRadius: '12px',
     textAlign: 'center',
-    cursor: 'pointer',
     width: '180px',
     margin: '15px'
   };
 
   const titleStyle = {
     color: centerColor,
-    backgroundColor: petalColor,
     margin: 0
   };
 
   return (
-    <div style={cardStyle} onClick={handleClick}>
+    <div style={cardStyle}>
       <h3 style={titleStyle}>{name}</h3>
     </div>
   );
 }
 
-
 export default Flower;
+
